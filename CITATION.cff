@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "SARA: Sistema de Avaliação e Revisão de Artigos"
+message: "Se você usar este software em trabalho acadêmico, por favor cite-o conforme os metadados abaixo."
+type: software
+authors:
+  # ATENÇÃO: preencha os autores somente após o aceite do artigo.
+  # O artigo está em revisão cega e nomes aqui podem quebrar o anonimato.
+  - name: "SARA - Donaduzzi contributors"
+repository-code: "https://github.com/SARA-Donaduzzi/sara-api"
+abstract: >-
+  Plataforma de submissão e avaliação por pares de artigos acadêmicos,
+  com um módulo de interoperabilidade OAI-PMH 2.0 que expõe os trabalhos
+  aprovados em Dublin Core e um módulo de recomendação de avaliadores
+  baseado em similaridade semântica entre embeddings multilíngues.
+keywords:
+  - peer review
+  - OAI-PMH
+  - Dublin Core
+  - reviewer assignment
+  - sentence embeddings
+  - open science
+license: MIT

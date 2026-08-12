@@ -1,0 +1,83 @@
+services:
+  # ─── API (imagem pré-buildada no GHCR) ───────────────────────────────────
+  api:
+    image: ghcr.io/sara-donaduzzi/sara-api:latest
+    container_name: sara_api
+    env_file: .env.prod
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+    networks:
+      - sara-network
+    restart: unless-stopped
+
+  # ─── PostgreSQL ───────────────────────────────────────────────────────────
+  postgres:
+    image: postgres:15-alpine
+    container_name: sara_db
+    env_file: .env.prod
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - sara-network
+    restart: unless-stopped
+
+  # ─── MinIO ────────────────────────────────────────────────────────────────
+  minio:
+    image: minio/minio:latest
+    container_name: sara_minio
+    env_file: .env.prod
+    volumes:
+      - minio_data:/data
+    command: server /data --console-address ":9001"
+    ports:
+      - "9000:9000"   # API S3
+      - "9001:9001"   # Console web
+    healthcheck:
+      test: ["CMD", "mc", "ready", "local"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - sara-network
+    restart: unless-stopped
+
+  # ─── MinIO Setup (roda uma vez para criar buckets) ────────────────────────
+  minio-setup:
+    image: minio/mc:latest
+    container_name: sara_minio_setup
+    depends_on:
+      minio:
+        condition: service_healthy
+    networks:
+      - sara-network
+    env_file: .env.prod
+    entrypoint: >
+      /bin/sh -c "
+      mc alias set myminio http://sara_minio:9000 ${MINIO_ROOT_USER} ${MINIO_ROOT_PASSWORD};
+      mc mb myminio/sara-files --ignore-existing;
+      mc mb myminio/sara-pdfs --ignore-existing;
+      mc mb myminio/sara-images --ignore-existing;
+      mc anonymous set download myminio/sara-pdfs;
+      mc anonymous set download myminio/sara-images;
+      echo 'Buckets criados!';
+      exit 0;
+      "
+    restart: "no"
+
+volumes:
+  postgres_data:
+  minio_data:
+
+networks:
+  sara-network:
+    driver: bridge
