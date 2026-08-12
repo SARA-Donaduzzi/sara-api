@@ -1,0 +1,22 @@
+[
+  { "articleId": "art-001", "idealEvaluators": ["eval-001", "eval-002"], "justification": "CNN para detecção de anomalias em redes: eval-001 (ML/deep learning) e eval-002 (segurança)" },
+  { "articleId": "art-002", "idealEvaluators": ["eval-005", "eval-009"], "justification": "Sistema web Django: eval-005 (dev web/frameworks) e eval-009 (banco de dados)" },
+  { "articleId": "art-003", "idealEvaluators": ["eval-002", "eval-010"], "justification": "Criptografia homomórfica + nuvem: eval-002 (segurança/criptografia) e eval-010 (LGPD/privacidade)" },
+  { "articleId": "art-004", "idealEvaluators": ["eval-004", "eval-007"], "justification": "IoT + MQTT: eval-004 (IoT/protocolos) e eval-007 (DevOps/cloud/infraestrutura)" },
+  { "articleId": "art-005", "idealEvaluators": ["eval-003", "eval-001"], "justification": "BERT + análise de sentimentos: eval-003 (NLP/BERT) e eval-001 (ML/modelos)" },
+  { "articleId": "art-006", "idealEvaluators": ["eval-006", "eval-010"], "justification": "Blockchain + supply chain: eval-006 (blockchain) e eval-010 (governança)" },
+  { "articleId": "art-007", "idealEvaluators": ["eval-002", "eval-005"], "justification": "Vulnerabilidades OWASP em apps web: eval-002 (segurança/OWASP) e eval-005 (dev web)" },
+  { "articleId": "art-008", "idealEvaluators": ["eval-011", "eval-001"], "justification": "DQN + otimização de rotas: eval-011 (RL/otimização) e eval-001 (deep learning)" },
+  { "articleId": "art-009", "idealEvaluators": ["eval-007", "eval-005"], "justification": "Docker + ambientes reprodutíveis: eval-007 (Docker/DevOps) e eval-005 (dev/arquitetura)" },
+  { "articleId": "art-010", "idealEvaluators": ["eval-012", "eval-010"], "justification": "OAI-PMH + repositório: eval-012 (OAI-PMH/Dublin Core) e eval-010 (software livre/governança)" },
+  { "articleId": "art-011", "idealEvaluators": ["eval-001", "eval-003"], "justification": "ResNet + radiografias: eval-001 (visão computacional/DL) e eval-003 (modelos de ML)" },
+  { "articleId": "art-012", "idealEvaluators": ["eval-010", "eval-002"], "justification": "LGPD + framework: eval-010 (LGPD/governança/privacidade) e eval-002 (segurança)" },
+  { "articleId": "art-013", "idealEvaluators": ["eval-008", "eval-001"], "justification": "App acessibilidade + visão: eval-008 (inclusão/acessibilidade) e eval-001 (visão computacional)" },
+  { "articleId": "art-014", "idealEvaluators": ["eval-007", "eval-005"], "justification": "Kubernetes + microsserviços: eval-007 (Kubernetes/DevOps) e eval-005 (arquitetura de software)" },
+  { "articleId": "art-015", "idealEvaluators": ["eval-008", "eval-005"], "justification": "Gamificação + inclusão digital: eval-008 (inclusão digital/UX) e eval-005 (dev web/plataformas)" },
+  { "articleId": "art-016", "idealEvaluators": ["eval-002", "eval-001"], "justification": "Biometria facial + autenticação: eval-002 (auth/segurança) e eval-001 (visão computacional)" },
+  { "articleId": "art-017", "idealEvaluators": ["eval-010", "eval-005"], "justification": "Software livre + gestão pública: eval-010 (software livre/governança) e eval-005 (sistemas web)" },
+  { "articleId": "art-018", "idealEvaluators": ["eval-001", "eval-004"], "justification": "YOLOv8 + detecção: eval-001 (visão computacional/YOLO/DL) e eval-004 (sistemas embarcados/câmeras)" },
+  { "articleId": "art-019", "idealEvaluators": ["eval-009", "eval-007"], "justification": "NoSQL + benchmark: eval-009 (banco de dados/NoSQL) e eval-007 (cloud/infraestrutura)" },
+  { "articleId": "art-020", "idealEvaluators": ["eval-010", "eval-003"], "justification": "Revisão sistemática + NLP: eval-010 (software livre/pesquisa) e eval-003 (NLP/classificação)" }
+]

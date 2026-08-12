@@ -23,3 +23,8 @@ dist
 Thumbs.db
 /src/generated/prisma
 .model-cache/
+
+# Dados dos experimentos: reconstruidos pelos scripts em scripts/, nao
+# redistribuidos (a SBC OpenLib permanece a fonte autoritativa dos metadados).
+scripts/data/corpus-sol/
+scripts/data/dataset-sol/

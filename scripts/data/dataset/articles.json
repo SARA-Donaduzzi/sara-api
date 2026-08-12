@@ -1,0 +1,142 @@
+[
+  {
+    "id": "art-001",
+    "title": "Detecção de Anomalias em Redes com Redes Neurais Convolucionais",
+    "abstract": "Este trabalho propõe o uso de redes neurais convolucionais (CNN) para detecção de anomalias em tráfego de redes de computadores. Foram avaliados conjuntos de dados públicos NSL-KDD e CICIDS2017, alcançando acurácia de 98,3% na classificação de ataques DDoS e port scanning. A abordagem supera métodos tradicionais baseados em assinaturas em cenários de ataques zero-day.",
+    "thematicArea": "Inteligência Artificial",
+    "keywords": ["redes neurais", "detecção de anomalias", "segurança de redes", "deep learning"]
+  },
+  {
+    "id": "art-002",
+    "title": "Framework Django para Sistemas de Gestão Acadêmica",
+    "abstract": "Apresentamos o desenvolvimento de um sistema de gestão acadêmica utilizando o framework Django com arquitetura MTV. O sistema suporta matrícula online, emissão de histórico e comunicação com professores. Foram realizados testes de carga com 500 usuários simultâneos, mantendo tempo de resposta abaixo de 200ms com PostgreSQL como backend.",
+    "thematicArea": "Desenvolvimento Web",
+    "keywords": ["django", "python", "desenvolvimento web", "sistemas acadêmicos"]
+  },
+  {
+    "id": "art-003",
+    "title": "Criptografia Homomórfica Aplicada a Dados de Saúde em Nuvem",
+    "abstract": "Este artigo explora o uso de criptografia homomórfica parcial (PHE) para proteger dados de prontuários eletrônicos armazenados em nuvem. Implementamos operações de soma e comparação sobre dados cifrados usando a biblioteca Microsoft SEAL. Os resultados mostram overhead de processamento de 15x comparado à computação em texto puro, viabilizando análises estatísticas sem expor dados sensíveis.",
+    "thematicArea": "Segurança Cibernética",
+    "keywords": ["criptografia homomórfica", "privacidade", "computação em nuvem", "dados de saúde"]
+  },
+  {
+    "id": "art-004",
+    "title": "Plataforma IoT para Monitoramento de Culturas Agrícolas com MQTT",
+    "abstract": "Desenvolvemos uma plataforma de Internet das Coisas para monitoramento em tempo real de temperatura, umidade e pH do solo em culturas de soja. Utilizamos protocolo MQTT com broker Mosquitto e sensores NodeMCU ESP8266. O sistema envia alertas via WhatsApp quando parâmetros excedem limites críticos, reduzindo perdas de colheita em 23% em teste piloto.",
+    "thematicArea": "Internet das Coisas",
+    "keywords": ["IoT", "MQTT", "agricultura de precisão", "sensores", "monitoramento"]
+  },
+  {
+    "id": "art-005",
+    "title": "Análise de Sentimentos em Redes Sociais com BERT",
+    "abstract": "Aplicamos o modelo BERT fine-tuned em português para análise de sentimentos em comentários do Twitter durante eleições municipais. O corpus contém 50.000 tweets coletados via API v2. O modelo BERTimbau alcançou F1-score de 0.91 na classificação positivo/negativo/neutro, superando SVM e LSTM em 8% e 12% respectivamente.",
+    "thematicArea": "Inteligência Artificial",
+    "keywords": ["processamento de linguagem natural", "BERT", "análise de sentimentos", "redes sociais"]
+  },
+  {
+    "id": "art-006",
+    "title": "Implementação de Blockchain para Rastreabilidade em Cadeias de Suprimento",
+    "abstract": "Propomos uma solução baseada em Hyperledger Fabric para rastreabilidade de produtos farmacêuticos desde o fabricante até o consumidor. Smart contracts em Go garantem imutabilidade dos registros de temperatura durante transporte. Experimentos com 10.000 transações demonstram throughput de 1.200 TPS com latência média de 0,8 segundos.",
+    "thematicArea": "Blockchain",
+    "keywords": ["blockchain", "Hyperledger", "rastreabilidade", "supply chain", "smart contracts"]
+  },
+  {
+    "id": "art-007",
+    "title": "Segurança em Aplicações Web: Análise de Vulnerabilidades OWASP Top 10",
+    "abstract": "Realizamos auditoria de segurança em 30 sistemas web de instituições públicas brasileiras utilizando ferramentas OWASP ZAP e Burp Suite. Identificamos que 87% possuem vulnerabilidades críticas de injeção SQL e 73% são suscetíveis a XSS. Propusemos um checklist de boas práticas adaptado ao contexto de desenvolvimento ágil.",
+    "thematicArea": "Segurança Cibernética",
+    "keywords": ["OWASP", "segurança web", "injeção SQL", "XSS", "auditoria"]
+  },
+  {
+    "id": "art-008",
+    "title": "Aprendizado por Reforço para Otimização de Rotas em Logística Urbana",
+    "abstract": "Aplicamos Deep Q-Network (DQN) para otimização de rotas de entrega em ambiente urbano com restrições dinâmicas de tráfego. O agente foi treinado em simulações baseadas em dados reais de São Paulo. Comparado ao algoritmo de Clarke-Wright, o DQN reduziu distância total em 18% e tempo de entrega em 22% para frotas de 50 veículos.",
+    "thematicArea": "Inteligência Artificial",
+    "keywords": ["aprendizado por reforço", "DQN", "otimização de rotas", "logística"]
+  },
+  {
+    "id": "art-009",
+    "title": "Contêineres Docker para Ambientes de Desenvolvimento Reprodutíveis",
+    "abstract": "Apresentamos metodologia para criação de ambientes de desenvolvimento reprodutíveis usando Docker e Docker Compose para stacks Python, Node.js e Java. Analisamos 200 repositórios GitHub de projetos educacionais brasileiros e demonstramos que ambientes containerizados reduzem tempo de setup de 4 horas para 15 minutos, diminuindo evasão em cursos de programação.",
+    "thematicArea": "DevOps",
+    "keywords": ["Docker", "containerização", "DevOps", "ambientes de desenvolvimento"]
+  },
+  {
+    "id": "art-010",
+    "title": "Protocolo OAI-PMH para Interoperabilidade de Repositórios Institucionais",
+    "abstract": "Implementamos o protocolo OAI-PMH 2.0 em sistema de repositório institucional universitário, expondo 12.000 registros em Dublin Core para harvesters acadêmicos. A integração com o Portal OASISBR e Google Scholar resultou em aumento de 340% nas visualizações de artigos. Descrevemos desafios de mapeamento de metadados do formato interno para Dublin Core.",
+    "thematicArea": "Governança e Interoperabilidade",
+    "keywords": ["OAI-PMH", "repositório digital", "Dublin Core", "interoperabilidade", "acesso aberto"]
+  },
+  {
+    "id": "art-011",
+    "title": "Visão Computacional para Triagem de Radiografias com ResNet-50",
+    "abstract": "Desenvolvemos sistema de triagem automática de radiografias de tórax para detecção de pneumonia usando ResNet-50 com transfer learning. O modelo foi treinado em 5.863 imagens do dataset ChestX-ray14 e alcançou AUC de 0.94. A ferramenta foi implantada como API REST e integrada a sistema hospitalar existente via HL7 FHIR.",
+    "thematicArea": "Inteligência Artificial",
+    "keywords": ["visão computacional", "deep learning", "saúde", "ResNet", "diagnóstico por imagem"]
+  },
+  {
+    "id": "art-012",
+    "title": "LGPD na Prática: Framework para Adequação de Sistemas de Informação",
+    "abstract": "Propomos um framework de adequação à Lei Geral de Proteção de Dados (LGPD) para sistemas de informação de pequenas empresas. O framework cobre mapeamento de dados pessoais, implementação de consentimento e resposta a requisições de titulares. Validado em 5 empresas do setor varejista, reduziu tempo de adequação de 18 para 6 meses.",
+    "thematicArea": "Governança e Interoperabilidade",
+    "keywords": ["LGPD", "proteção de dados", "conformidade", "privacidade", "governança"]
+  },
+  {
+    "id": "art-013",
+    "title": "Aplicativo Móvel para Acessibilidade de Pessoas com Deficiência Visual",
+    "abstract": "Desenvolvemos aplicativo Android com reconhecimento de objetos em tempo real para auxiliar pessoas com deficiência visual. Usamos MobileNetV3 otimizado para inferência em dispositivos móveis (< 50ms por frame). O app inclui síntese de voz, navegação por gestos e modo offline. Avaliado com 12 usuários com deficiência visual total, obteve SUS score de 82.",
+    "thematicArea": "Inclusão Digital",
+    "keywords": ["acessibilidade", "deficiência visual", "aplicativo móvel", "reconhecimento de objetos"]
+  },
+  {
+    "id": "art-014",
+    "title": "Microsserviços com Kubernetes para Alta Disponibilidade",
+    "abstract": "Migramos monólito de e-commerce para arquitetura de microsserviços orquestrada por Kubernetes em Google Cloud. A refatoração envolveu decomposição em 12 serviços independentes com comunicação via gRPC e Apache Kafka. Resultados pós-migração: disponibilidade de 99,97%, redução de custo de infraestrutura em 35% e deploys diários aumentaram de 2 para 28.",
+    "thematicArea": "DevOps",
+    "keywords": ["microsserviços", "Kubernetes", "alta disponibilidade", "arquitetura de software"]
+  },
+  {
+    "id": "art-015",
+    "title": "Educação Financeira Digital com Gamificação para Jovens de Baixa Renda",
+    "abstract": "Desenvolvemos plataforma web gamificada de educação financeira voltada para jovens de 15-24 anos em situação de vulnerabilidade social. A plataforma usa mecânicas de pontuação, missões e ranking. Em piloto com 200 estudantes de escola pública, houve melhora de 67% em conhecimentos financeiros após 8 semanas de uso, medida por pré e pós-teste validado.",
+    "thematicArea": "Inclusão Digital",
+    "keywords": ["gamificação", "educação financeira", "inclusão digital", "aplicação web"]
+  },
+  {
+    "id": "art-016",
+    "title": "Autenticação Multifator com Biometria Facial em Sistemas Bancários",
+    "abstract": "Implementamos sistema de autenticação multifator combinando OTP e reconhecimento facial para acesso a internet banking. O módulo de reconhecimento usa FaceNet com verificação anti-spoofing baseada em análise de textura 3D. Testado com 1.000 usuários, alcançou FAR de 0.001% e FRR de 0.8%, atendendo regulamentação do Banco Central.",
+    "thematicArea": "Segurança Cibernética",
+    "keywords": ["biometria", "autenticação multifator", "reconhecimento facial", "segurança bancária"]
+  },
+  {
+    "id": "art-017",
+    "title": "Software Livre para Gestão Municipal: Implantação do e-City",
+    "abstract": "Relatamos a implantação do sistema e-City (software livre baseado em Java EE) em município de 80.000 habitantes para gestão de tributos, alvará e ouvidoria. O projeto envolveu migração de dados de sistema proprietário, capacitação de 150 servidores e customizações de interface. Análise de custo-benefício indica economia de R$ 1,2M em 3 anos comparado à renovação de licenças.",
+    "thematicArea": "Governança e Interoperabilidade",
+    "keywords": ["software livre", "gestão pública", "e-governo", "implantação"]
+  },
+  {
+    "id": "art-018",
+    "title": "Transfer Learning com YOLOv8 para Detecção de EPIs em Canteiros de Obras",
+    "abstract": "Aplicamos YOLOv8 com transfer learning para detecção automática de uso de Equipamentos de Proteção Individual (EPIs) em canteiros de obras. O modelo foi fine-tuned em dataset proprietário de 3.200 imagens de obras brasileiras. Alcançou mAP@0.5 de 0.89 para capacete, colete e óculos de proteção, viabilizando monitoramento em tempo real via câmeras IP.",
+    "thematicArea": "Inteligência Artificial",
+    "keywords": ["detecção de objetos", "YOLOv8", "segurança do trabalho", "visão computacional"]
+  },
+  {
+    "id": "art-019",
+    "title": "Análise de Desempenho de Bancos de Dados NoSQL para Aplicações de Alta Escala",
+    "abstract": "Comparamos desempenho de MongoDB, Cassandra e Redis para workloads típicos de aplicações de redes sociais: escrita intensiva, leitura de timeline e busca por tags. Utilizamos benchmark YCSB com 10 milhões de operações. Redis apresentou menor latência para leituras (0,3ms), Cassandra melhor throughput de escrita (85.000 ops/s) e MongoDB maior flexibilidade de consultas.",
+    "thematicArea": "Banco de Dados",
+    "keywords": ["NoSQL", "MongoDB", "Cassandra", "Redis", "banco de dados", "desempenho"]
+  },
+  {
+    "id": "art-020",
+    "title": "Ferramenta de Código Aberto para Revisão Sistemática de Literatura com NLP",
+    "abstract": "Desenvolvemos ferramenta open source (Python, licença MIT) que automatiza etapas de revisão sistemática de literatura científica usando NLP. A ferramenta aplica classificação zero-shot com modelos HuggingFace para triagem de artigos por relevância, reduzindo tempo de seleção em 60% em estudo de caso com 2.800 artigos sobre ensino de programação.",
+    "thematicArea": "Governança e Interoperabilidade",
+    "keywords": ["revisão sistemática", "NLP", "software livre", "pesquisa científica", "automação"]
+  }
+]

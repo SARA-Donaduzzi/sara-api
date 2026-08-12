@@ -1,0 +1,134 @@
+[
+  {
+    "id": "eval-001",
+    "name": "Dr. André Pereira",
+    "institution": "UFPR",
+    "expertise": ["machine learning", "deep learning", "redes neurais", "inteligência artificial", "visão computacional"],
+    "pastArticles": [
+      "Classificação de imagens médicas com CNN e transfer learning",
+      "Comparativo de algoritmos de aprendizado profundo para detecção de objetos",
+      "Redes neurais recorrentes para previsão de séries temporais financeiras"
+    ]
+  },
+  {
+    "id": "eval-002",
+    "name": "Dra. Beatriz Cunha",
+    "institution": "UTFPR",
+    "expertise": ["segurança cibernética", "criptografia", "análise de vulnerabilidades", "OWASP", "autenticação"],
+    "pastArticles": [
+      "Análise de vulnerabilidades em sistemas de pagamento online",
+      "Protocolos de autenticação multifator para aplicações críticas",
+      "Criptografia de curvas elípticas em dispositivos embarcados"
+    ]
+  },
+  {
+    "id": "eval-003",
+    "name": "Prof. Carlos Rodrigues",
+    "institution": "UNICAMP",
+    "expertise": ["processamento de linguagem natural", "BERT", "análise de sentimentos", "text mining", "aprendizado de máquina"],
+    "pastArticles": [
+      "Modelos de linguagem pré-treinados para classificação de texto em português",
+      "Extração de informações em documentos jurídicos com NLP",
+      "Sumarização automática de artigos científicos com transformers"
+    ]
+  },
+  {
+    "id": "eval-004",
+    "name": "Dra. Diana Ferreira",
+    "institution": "USP",
+    "expertise": ["IoT", "sistemas embarcados", "MQTT", "protocolos de comunicação", "computação ubíqua"],
+    "pastArticles": [
+      "Gateway IoT para integração de sensores heterogêneos em smart cities",
+      "Protocolo LoRaWAN para redes de sensores em agricultura de precisão",
+      "Segurança em dispositivos IoT de baixo custo"
+    ]
+  },
+  {
+    "id": "eval-005",
+    "name": "Prof. Eduardo Lima",
+    "institution": "PUC-RS",
+    "expertise": ["desenvolvimento web", "frameworks", "arquitetura de software", "microsserviços", "APIs REST"],
+    "pastArticles": [
+      "Comparativo de frameworks JavaScript para desenvolvimento de SPAs",
+      "Padrões arquiteturais para APIs RESTful escaláveis",
+      "Desenvolvimento orientado a testes em aplicações web modernas"
+    ]
+  },
+  {
+    "id": "eval-006",
+    "name": "Dra. Fabiana Costa",
+    "institution": "UFMG",
+    "expertise": ["blockchain", "smart contracts", "sistemas distribuídos", "criptomoedas", "rastreabilidade"],
+    "pastArticles": [
+      "Ethereum smart contracts para leilões descentralizados",
+      "Hyperledger Fabric para rastreabilidade de medicamentos",
+      "Consenso em redes blockchain permissionadas"
+    ]
+  },
+  {
+    "id": "eval-007",
+    "name": "Prof. Gustavo Martins",
+    "institution": "UFRGS",
+    "expertise": ["DevOps", "Docker", "Kubernetes", "CI/CD", "infraestrutura como código", "cloud computing"],
+    "pastArticles": [
+      "Pipeline de CI/CD com GitLab para times ágeis",
+      "Orquestração de contêineres Kubernetes em ambientes híbridos",
+      "Infrastructure as Code com Terraform para ambientes multi-cloud"
+    ]
+  },
+  {
+    "id": "eval-008",
+    "name": "Dra. Helena Souza",
+    "institution": "UNB",
+    "expertise": ["inclusão digital", "acessibilidade", "tecnologia assistiva", "UX", "usabilidade"],
+    "pastArticles": [
+      "Avaliação de acessibilidade em portais governamentais brasileiros",
+      "Design inclusivo para aplicativos móveis destinados a idosos",
+      "Tecnologia assistiva para estudantes com dislexia"
+    ]
+  },
+  {
+    "id": "eval-009",
+    "name": "Prof. Igor Oliveira",
+    "institution": "UNESP",
+    "expertise": ["banco de dados", "SQL", "NoSQL", "otimização de queries", "modelagem de dados"],
+    "pastArticles": [
+      "Otimização de consultas em bancos de dados distribuídos",
+      "Comparativo de performance entre PostgreSQL e MySQL em cenários OLAP",
+      "Modelagem de dados para sistemas de recomendação"
+    ]
+  },
+  {
+    "id": "eval-010",
+    "name": "Dra. Julia Nascimento",
+    "institution": "UFC",
+    "expertise": ["governança de TI", "LGPD", "proteção de dados", "software livre", "políticas de TI", "interoperabilidade"],
+    "pastArticles": [
+      "Impacto da LGPD em startups brasileiras de saúde digital",
+      "Software livre na administração pública: barreiras e oportunidades",
+      "Frameworks de governança de dados para setor público"
+    ]
+  },
+  {
+    "id": "eval-011",
+    "name": "Prof. Leandro Gomes",
+    "institution": "UFBA",
+    "expertise": ["aprendizado por reforço", "otimização", "algoritmos evolutivos", "pesquisa operacional"],
+    "pastArticles": [
+      "Q-Learning para escalonamento de tarefas em computação em grade",
+      "Algoritmos genéticos para otimização de portfólio de investimentos",
+      "Multi-agent reinforcement learning em ambientes competitivos"
+    ]
+  },
+  {
+    "id": "eval-012",
+    "name": "Dra. Marina Alves",
+    "institution": "UFSC",
+    "expertise": ["repositórios digitais", "metadados", "Dublin Core", "OAI-PMH", "bibliotecas digitais", "acesso aberto"],
+    "pastArticles": [
+      "Implementação de repositório institucional com DSpace",
+      "Mapeamento de esquemas de metadados para interoperabilidade",
+      "Política de acesso aberto em universidades federais brasileiras"
+    ]
+  }
+]

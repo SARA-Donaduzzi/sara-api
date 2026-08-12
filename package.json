@@ -12,7 +12,11 @@
     "db:seed": "tsx prisma/seed.ts",
     "db:reset-and-seed": "bunx prisma migrate reset --force && bun run db:seed",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "repro:harvest": "python scripts/harvest_sol.py",
+    "repro:dataset": "python scripts/build_dataset_sol.py",
+    "repro:experiment": "bun scripts/run-experiment-sol.ts",
+    "repro:validate-oai": "python scripts/validate-oai.py"
   },
   "keywords": [
     "peer-review",
