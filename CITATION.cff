@@ -3,9 +3,14 @@ title: "SARA: Sistema de Avaliação e Revisão de Artigos"
 message: "Se você usar este software em trabalho acadêmico, por favor cite-o conforme os metadados abaixo."
 type: software
 authors:
-  # ATENÇÃO: preencha os autores somente após o aceite do artigo.
-  # O artigo está em revisão cega e nomes aqui podem quebrar o anonimato.
-  - name: "SARA - Donaduzzi contributors"
+  - given-names: "Matheus Felipe"
+    family-names: "Queiroz Pinto"
+    affiliation: "Faculdade Donaduzzi"
+    email: "matheus.pinto@alunos.bpkedu.com.br"
+  - given-names: "Willian Douglas"
+    family-names: "Ferrari Mendonça"
+    affiliation: "Faculdade Donaduzzi"
+    email: "willian.mendonca@bpkedu.com.br"
 repository-code: "https://github.com/SARA-Donaduzzi/sara-api"
 abstract: >-
   Plataforma de submissão e avaliação por pares de artigos acadêmicos,
@@ -20,3 +25,16 @@ keywords:
   - sentence embeddings
   - open science
 license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "SARA como Infraestrutura Científica Aberta: Recomendação Semântica de Avaliadores e Interoperabilidade via OAI-PMH"
+  authors:
+    - given-names: "Matheus Felipe"
+      family-names: "Queiroz Pinto"
+      affiliation: "Faculdade Donaduzzi"
+    - given-names: "Willian Douglas"
+      family-names: "Ferrari Mendonça"
+      affiliation: "Faculdade Donaduzzi"
+  conference:
+    name: "Latinoware 2026 - 23º Congresso Latino-americano de Software Livre e Tecnologias Abertas (trilha Latin.Science)"
+  year: 2026
